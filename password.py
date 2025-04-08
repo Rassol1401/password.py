@@ -6,7 +6,6 @@ def is_very_long(password):
     return not len(password) >= 12
 
 
-
 def has_lower_letters(password):
     return any(mub.islower() for mub in password)
 
@@ -40,12 +39,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()    
-
-
-
-
-
-
-
-
+    main()
